@@ -10,7 +10,7 @@ NOTE: Interviewer, Student, Faculty and Admin are the profiles associated with d
 
 ### models.py
 
-```
+```python
 from django.db import models
 
 # import BaseUserManager and AbstractBaseUser
@@ -269,7 +269,7 @@ admin.site.register(Interviewer)
 ```
 
 ### settings.py
-```
+```python
 ...
 INSTALLED_APPS = [
   ...
