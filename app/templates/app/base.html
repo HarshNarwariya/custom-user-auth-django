@@ -1,0 +1,13 @@
+<html>
+    <head>
+        {% if title %}
+        <title>Custom User - {{title}}</title>
+        {% else %}
+        <title>Custom User</title>
+        {% endif %}
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
